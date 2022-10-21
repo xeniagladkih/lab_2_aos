@@ -21,7 +21,7 @@ void printBinary(int n, int i)
 // функція, яка друкує неявний біт
 void printBit(int n)
 {
-    int k = 1;
+    int k = 0;
     int implicit_bit;
 
     //якщо перший біт мантиси - 1, то неявний біт - 0
